@@ -61,12 +61,6 @@
 	padding: 0px;
 }
 
-/*
-.navbar-header button.navbar-toggle {
-	clear: both;
-	margin-top: -30px;
-}
-*/
 #main-content {
 	height: 1000px;
 }
@@ -75,8 +69,18 @@
 	font-weight: bold;
 }
 
+#menu {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .menu-item {
 	background-color: #a9a9a9;
+	margin-bottom: 25px;
+}
+
+.menu-item-title {
+	font-weight: bold;
 }
 
 @media (max-width:768px) {
