@@ -1,7 +1,3 @@
-.container-fluid {
-	padding: 0;
-}
-
 #header-nav {
 	background-color: #a9a9a9;
 	border: 2px solid #000000;
@@ -13,7 +9,6 @@
 	font-weight: bold;
 	font-size: 1.5em;
 	margin: 0;
-	margin-left: 25px;
 }
 
 .navbar-header button.navbar-toggle {
@@ -29,7 +24,6 @@
 #collapsable-nav {
 	margin: 0;
 	padding: 0;
-	/*border-top: 2px solid #000000;*/
 }
 
 #collapsable-nav a {
@@ -69,15 +63,25 @@
 
 /*
 .navbar-header button.navbar-toggle {
- clear: both;
- margin-top: -30px;
+	clear: both;
+	margin-top: -30px;
 }
 */
+#main-content {
+	height: 1000px;
+}
+
+#main-content h2 {
+	font-weight: bold;
+}
+
+.menu-item {
+	background-color: #a9a9a9;
+}
 
 @media (max-width:768px) {
 	#collapsable-nav {
 		border-top: 2px solid #000000;
 	}
-}
-	
+
 }

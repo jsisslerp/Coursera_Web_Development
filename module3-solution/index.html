@@ -11,36 +11,52 @@
   <body>
     <header>
       <nav id="header-nav" class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="navbar-brand">
-              <h1>Food, LLC</h1>
-            </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
           </div>
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-              <li>
-                <a href="#beef">Beef<hr></a>
-              </li>
-              <li>
-                <a href="#chicken">Chicken<hr></a>
-              </li>
-              <li>
-                <a href="#">Sushi</a>
-              </li>
-            </ul>
-          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
         </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#beef">Beef<hr></a>
+            </li>
+            <li>
+              <a href="#chicken">Chicken<hr></a>
+            </li>
+            <li>
+              <a href="#sushi">Sushi</a>
+            </li>
+          </ul>
+        </div>
+        
       </nav>
     </header>
     <main>
-      <div style="height: 1000px">
+      <div id="main-content" class="container">
+        <h2 class="text-center">
+        Our Menu
+        </h2>
+        <div class="row">
+          <section id="chicken" class="menu-item col-xs-12">
+            <h3 class="menu-item-title text-center">Chicken</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </section>
+          <section id="beef" class="menu-item col-xs-12">
+            <h3 class="menu-item-title text-center">Beef</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </section>
+          <section id="sushi" class="menu-item col-xs-12">
+            <h3 class="menu-item-title text-center">Sushi</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </section>
+        </div>
       </div>
     </main>
     <script src="js/jquery-1.11.3.min.js"></script>
